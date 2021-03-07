@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Caveat", cursive;
+}
+
+body {
+  background-image: url("ny-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: local;
+}
+
+main {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 45vw;
+  height: 55vh;
+  margin: auto;
+  margin-top: 7%;
+  overflow: hidden;
+}
+
+h1 {
+  font-family: "Stick", sans-serif;
+  font-size: 46px;
+  text-align: center;
+}
+
+.todo-input {
+  min-width: 85%;
+  min-height: 5vh;
+  font-size: 24px;
+  text-align: center;
+}
+
+button {
+  margin: 10px;
+  border: none;
+  background-color: white;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.todo-button {
+  color: rgb(147, 224, 32);
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.todo {
+  margin-left: 4vw;
+  text-align: left;
+  font-size: 22px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo-object {
+  color: black;
+}
+
+.todo-object:hover {
+  text-decoration: line-through;
+  text-decoration-color: red;
+}
+
+.delete-btn {
+  cursor: pointer;
+  width: 100px;
+  font-size: 22px;
+}
+
+.fa-trash {
+  pointer-events: none;
+}
+
+.completed {
+  color: red;
+  text-decoration: line-through;
+}
